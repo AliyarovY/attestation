@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "attestation"
+version = "1.0"
+description = ""
+authors = ["Yusif"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.7"
+psycopg2 = "^2.9.5"
+djangorestframework = "^3.14.0"
+flake8 = "^6.0.0"
+pillow = "^9.4.0"
+djangorestframework-simplejwt = "^5.2.2"
+django-rest-swagger = "^2.2.0"
+drf-yasg = {extras = ["validation"], version = "^1.21.5"}
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
